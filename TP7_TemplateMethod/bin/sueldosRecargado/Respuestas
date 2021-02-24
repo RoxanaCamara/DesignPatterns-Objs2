@@ -1,0 +1,22 @@
+jercicio 1 - Lea el pattern Template Method y...
+1. Utilizando las ideas propuestas por el pattern y responda:
+
+a. ¿Dónde se define el esqueleto del algoritmo?
+
+El esqueleto del algoritmo se define en la clase ABSTRACTA, 
+esta posee un mensaje en el cual puede tener un procedimiento generico 
+que pueden aplicarlo todas sus clases hijas. 
+Una caracteristica de ese mensaje es que esta declarado como FINAL.
+
+b. ¿Se puede redefinir el esqueleto?
+
+No, para respetar el principio SOLID es conveniente evitar redefinirlo
+
+c. ¿Qué es lo que se puede redefinir?
+
+Se puede redefinir un los comportamientos/mensajes
+
+d. ¿Qué es un hook method?
+
+Un metodo HOOK es una funcion vacia en la clase abstracta. Esta no posee ninguna funcionalidad. 
+Esta es util para la necesidad de definir un comportamiento solo en una o pocas clases hijas. 

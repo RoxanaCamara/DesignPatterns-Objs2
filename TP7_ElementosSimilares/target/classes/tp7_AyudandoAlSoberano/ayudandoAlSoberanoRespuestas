@@ -1,0 +1,14 @@
+Ejercicio 6 – Contestar y justificar las respuestas
+1. Existe más de un tipo de adaptadores, mencione y explique cada uno de ellos.
+2. ¿En qué se diferencia un tipo de adaptador del otro?
+3. ¿Se pueden utilizar ambas alternativas de implementación del patrón en java?
+¿Justifique la respuesta?
+4. Ver la interface Enumeration de java y la clase Vector, preste atención a que dicha
+clase contiene un método "elements()". Explique cómo funciona el patrón
+adapter y cuáles son los roles de los participantes entre la interface y clase
+mencionada. Mencione qué tipo de implementación del patrón se utiliza.
+5. Realice el mismo análisis del punto 3, pero con la interface Iterator, la clase
+ArrayList (preste atención al método "iterator()"). Muestre un ejemplo de
+funcionamiento y especifique los roles de cada participante.
+6. Implemente un Adaptador, que adapte un Iterator a un Enumeration. Escribir
+código que utilice dicha implementación adaptando un ArrayList.

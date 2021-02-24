@@ -1,0 +1,16 @@
+3. Explique la discusión sobre quiénes deben implementar las operaciones de agregado y borrado de hijos.
+
+
+
+
+4. Sobre su implementación, 
+indique los roles que desempeñan cada una de las clases diseñadas en relación al patrón Composite.
+
+CLIENT: Parcela
+
+COMPONENT: Porciones
+
+LEAFT: Pura
+
+COMPOSITE: Mixta
+

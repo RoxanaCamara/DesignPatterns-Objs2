@@ -1,0 +1,39 @@
+1. Diagrama de Clases en UML.
+
+2. Detecte las violaciones a los principios SOLID
+
+S- El principio de una sola responsabilidad.
+    En este caso ClienteEMail realiza muchos comportamientos como conectarse.
+
+
+O- Abierto para la extencion y cerrado para a modificacion. 
+    No se respeta ya que ClienteEMail posee una definido un Servidor concreto 
+    siendo el caso si se quiere cambiar de servidor habra que modificarlo.
+    
+
+L- Toda clase hija debe utilizarce y realizar comportamientos como su padre, evitando mensajes vacios, etc.
+    No aparecio
+
+I- Separar en muchas interfaces pequeñas y especializadas
+    IServidor podria tener dos interfaces una para coneccion y otra para el envio de mensajes
+
+D- Los modulos de alto nivel no deben de depender de los modulos de bajo nivel, deben de depender de interfaces.
+    Ejemplo:
+    La agencia recibe una notificacion que se pago la factura. 
+    Agencia pudiendo ser:  persona, Pyme, Banco, Corporacion, Unisef , etc.
+    Factura: compra de mercaderia, transferencia, donacion, etc.
+    ambas deben de comunicarse con interfaces para que no se puedan comunicar con facilidad 
+    sin importar los tipo de clases son cada una
+    
+    InterfazAgencia 
+    
+    InterfazFactura
+    
+    Habia clases concretas que se comunicaban con clases de interfaces
+
+3. Indique las soluciones que deben llevarse a cabo
+
+
+4. Implemente las soluciones mediante:
+1. diagrama de clases
+2. código Java

@@ -1,0 +1,13 @@
+Se deben realizar los siguientes puntos:
+
+1. Diagrama de Clases en UML del modelo propuesto como solución. Para la realización de este modelo
+considere qué clases forman parte del mismo, qué atributos y operaciones poseen, qué relaciones de
+conocimiento tienen entre sí y cómo se distribuyen las responsabilidades entre ellos para llevar a cabo los
+objetivos.
+
+
+2. Justifique por qué su modelo no viola los principios SOLID e marque cuáles desiciones tomó para que asi sea.
+
+
+
+3. A partir del diseño del punto anterior realice la implementación en Java, aplicando TDD.

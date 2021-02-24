@@ -1,0 +1,20 @@
+Luego, debata y responda las siguientes preguntas:
+
+
+1. ¿Qué ventajas, en cuanto a polimorfismo, brindan las interfaces en Java?
+
+
+2. ¿Por qué no siempre puedo utilizar clases abstractas para agrupar clases polimórficas?
+
+
+3. ¿Qué ventajas tienen las clases abstractas sobre las interfaces?
+
+
+4. ¿Se puede instanciar una interface?
+
+
+5. ¿Por qué no es recomendable incrementar o modificar las firmas definidas en un interface?
+
+
+
+6. ¿Por qué, en lenguajes como Smalltalk, no es necesaria la implementación de interfaces?

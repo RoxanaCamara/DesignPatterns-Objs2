@@ -1,0 +1,13 @@
+Ejercicio 9 – Colecciones
+
+ Ver la interface Enumeration de java y la clase Vector, preste atención a que
+dicha clase contiene un método "elements()". Explique cómo funciona el patrón
+adapter y cuáles son los roles de los participantes entre la interface y clase
+mencionada. Mencione qué tipo de implementación del patrón se utiliza.
+
+Realice el mismo análisis del punto 1.3, pero con la interface Iterator, la clase
+ArrayList (preste atención al método "iterator()"). Muestre un ejemplo de
+funcionamiento y especifique los roles de cada participante.
+
+Implemente un Adaptador, que adapte un Iterator a un Enumeration. Escribir
+código que utilice dicha implementación adaptando un ArrayList.
